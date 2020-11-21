@@ -23,7 +23,9 @@ class Admin_aboutus extends CI_Controller {
     
     	$this->load->model('Admin_aboutus_model');
     	
-    	$this->load->library('encryption');
+      $this->load->library('encryption');
+      
+      /* test */
 
     }
 
